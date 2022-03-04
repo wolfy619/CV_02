@@ -1,175 +1,84 @@
-body{
-  background-color: #525252;
-  text-align: center;
-  margin: 0;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
-  font-weight: normal;
-}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Elias Personal Site</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="icon" href="Assets/icon.png">
 
-h1{
-  font-family: "Montserrat", sans-serif;
-  font-size: 3rem;
-  font-weight: bold;
-  line-height: 2;
-}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 
-h2{
-  font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
-  font-weight: normal;
-}
-
-h3{
-  font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
-  font-weight: normal;
-}
-
-p{
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
-  font-weight: normal;
-}
-
-hr{
-  border-style: dotted;
-  width: 50px;
-  border-width: 4px 0 0 0;
-  color: #525252;
-  clear: both;
-}
-
-.cloud_top{
-  position: relative;
-  margin: 5% auto 0 auto;
-  left: 200px;
-}
-
-.cloud_btm{
-  position: absolute;
-}
-
-.nameIntro{
-    font-family: "Montserrat", sans-serif;
-    font-size: 3rem;
-    font-weight: bold;
-}
-
-.intro_p{
-  margin: 0;
-  font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
-}
-
-.VFX{
-  text-decoration: underline;
-}
-
-.top-container{
-  color: #D1D1D1;
-  background-color: #525252;
-  margin: 0;
-  padding: 1%;
-  position: relative;
-}
-
-.middle-container{
-  background-color: #EFEFEF;
-  padding-bottom: 75px;
-}
-
-.contact-me{
-  margin: 100px;
-  background-color: #EFEFEF;
-}
-
-.bottom-container{
-  background-color: #525252;
-  margin: 50px;
-}
-
-.profile_icon{
-  height: 100px;
-}
-
-.skill-row{
-  width: 50%;
-  margin: 0 auto 0 auto;
-  text-align: left;
-  line-height: 2;
-  float: left;
-}
-
-.prog_img{
-  height: 100px;
-  float: left;
-  margin: 0 30px 400px 30px;
-}
-
-.work_exp_img{
-  height: 100px;
-  float: left;
-  margin: 0 30px 400px 30px;
-}
-
-.btn {
-  background: #666666;
-  background-image: -webkit-linear-gradient(top, #666666, #424242);
-  background-image: -moz-linear-gradient(top, #666666, #424242);
-  background-image: -ms-linear-gradient(top, #666666, #424242);
-  background-image: -o-linear-gradient(top, #666666, #424242);
-  background-image: linear-gradient(to bottom, #666666, #424242);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: Arial;
-  color: #D1D1D1;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background: #858585;
-  background-image: -webkit-linear-gradient(top, #858585, #575757);
-  background-image: -moz-linear-gradient(top, #858585, #575757);
-  background-image: -ms-linear-gradient(top, #858585, #575757);
-  background-image: -o-linear-gradient(top, #858585, #575757);
-  background-image: linear-gradient(to bottom, #858585, #575757);
-  text-decoration: none;
-}
-
-.footer-link{
-  margin: 0 50px 0 50px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
-  font-weight: normal;
-  color: black;
-}
-
-.copywrite{
-  margin: 50px 50px 0 50px;
-}
-
-.h3Bolder{
-  font-weight: bold;
-}
+  </head>
 
 
-.listedNone{
-  list-style-type: none;
-  text-indent: 50px;
-}
+  <body>
+    <div class="top-container">
+      <img class="cloud_top" src="Assets/cloud.png" alt="cloud_top.png">
+      <h1 class="nameIntro">Elias Hassan</h1>
+      <p class="intro_p"> A <span class="VFX">VFX</span> Artist </p>
+      <img class="cloud_btm" src="Assets/cloud.png" alt="cloud_btm.png" >
+      <img src="Assets/mountain.png" alt="mountain.png">
+    </div>
 
-.left-half{
-  margin-left: 400px
-}
 
-.right-half{
-  margin-left: 100px
-}
+    <div class="middle-container">
+      <div class="profile">
+        <img class="profile_icon" src="https://cdn-icons-png.flaticon.com/512/1077/1077063.png" alt="profile_icon.png">
+        <h2>Hello.</h2>
+        <p>Enjoys working with variety of roles such asLighting and FX, is also a meticulous workerwho enjoys coming up with creative solutions.</p>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <div class="left-half">
+            <img class="prog_img" src="https://cdn-icons-png.flaticon.com/512/3474/3474360.png" alt="prog_img.png">
+            <h3 class="h3Bolder">Programmes</h3>
+            <ul>
+              <li>Houdini</li>
+              <li>Vex/Vop/Hscript</li>
+              <li>NukeX</li>
+              <li>Maya</li>
+              <li>Substance Painter</li>
+              <li>CgTeamwork</li>
+              <li>Mantra</li>
+              <li>Arnold</li>
+            </ul>
+          </div>
+        </div>
+        <div class="skill-row">
+          <div class="right-half">
+            <img class="work_exp_img" src="https://cdn-icons-png.flaticon.com/512/3885/3885345.png" alt="work_exp_img.png">
+            <h3 class="h3Bolder">Work Experiences</h3>
+            <ul class="listedHeader">
+              <li>Junior VFX Artist
+              <br>
+              G.H.Y Culture And Media( Aug 2020 - Feb 2022 )
+              <ul class="listedNone">
+                <li>
+                  - Project : Chinese New Year Greeting (FX) (3 Weeks)
+                </li>
+              </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr class="hr_quick">
+      <div class="contact-me">
+        <h2>Showreel</h2>
+        <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+        <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+      </div>
+    </div>
 
-.profile{
-  margin-bottom: 50px;
-}
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/elias-hassan-93207713a">LinkedIn</a>
+        <a class="footer-link" href="https://www.artstation.com/trigunx">Art Station</a>
+      <p class="copywrite">©Elias</p>
+    </div>
+
+  </body>
+</html>
